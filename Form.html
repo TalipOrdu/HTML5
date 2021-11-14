@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sifre{
+            width: 200px;
+            color: red;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<!--default olarak gönderilen veriler value'de tutulur Get metodu verileri url ye aktarır gizlilik icin post method kullanılır.-->
+<body>
+
+    <form method="post">
+        <input type="text" name="kullaniciadi" id="kullaniciadi" placeholder="write your name">
+        <br>
+        <input type="password" name="sifre" id="sifre" placeholder="Write your password">
+        <br>
+        <input type="radio" name="gender" id="" value="Male">Male
+        <input type="radio" name="gender" id="" value="Female">Female
+        <br>
+        <input type="submit" value="Gonder">
+    </form>
+</body>
+</html>
